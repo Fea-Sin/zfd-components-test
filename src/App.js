@@ -6,6 +6,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
+import 'zfd/dist/zfd.css';
 import Home from './Components/Home';
 import Alert from './Components/Alert';
 
