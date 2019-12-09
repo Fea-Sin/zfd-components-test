@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from 'react-router-dom';
+import Home from './Components/Home';
+import Alert from './Components/Alert';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          ZF-Design Components Test Check The Fallow Link 
-        </p>
-        {/* eslint-disable-next-line */}
-        <a
-          className="App-link"
-          href=""
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <div className='App-header-title'>
+            ZF-Design Components Test Check The Fallow Link
+          </div>
+          <div className='App-header-nav'>
+            <span className='App-link'><Link to='/'>Home</Link></span>
+            <span className='App-link'><Link to='/alert'>Alert</Link></span>
+          </div>
+        </header>
+        <div className='App-container'>
+          <Switch>
+            <Route exact path='/'><Home /></Route>
+            <Route path='/alert'><Alert /></Route>
+          </Switch>
+        </div>
+      </div>      
+    </Router>
   );
 }
 
