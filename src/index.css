@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.RowFS {
+  width: 100%;
+  box-sizing: border-box;
+  zoom: 1;
+}
+.RowFS::before,
+.RowFS::after {
+  content: ' ';
+  display: table;
+}
+.RowFS::after {
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0; 
+}
+.RowFS-col {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+

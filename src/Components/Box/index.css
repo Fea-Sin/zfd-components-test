@@ -1,0 +1,29 @@
+.BoxFS {
+  border: 1px solid #e3e2e1;
+  border-radius: 3px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.BoxFS-code {
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.BoxFS-footer {
+  border-top: 1px solid #e3e2e1;
+  padding-bottom: 25px;
+}
+.BoxFS-footer-case {
+  font-size: 14px;
+  line-height: 1;
+  display: inline-block;
+  padding-left: 7px;
+  padding-right: 7px;
+  position: relative;
+  top: -10px;
+  left: 20px;
+  background-color: #fff;
+}
+.BoxFS-footer-title {
+  padding-left: 27px;
+}
