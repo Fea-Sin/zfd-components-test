@@ -10,6 +10,7 @@ import 'zfd/dist/zfd.css';
 import Home from './Components/Home';
 import Alert from './Components/Alert';
 import Icon from './Components/Icon';
+import Pie from './Components/PieChart';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <span className='App-link'><Link to='/'>Home</Link></span>
             <span className='App-link'><Link to='/alert'>Alert</Link></span>
             <span className='App-link'><Link to='/icon'>Icon</Link></span>
+            <span className='App-link'><Link to='/pie'>PieChart</Link></span>
           </div>
         </header>
         <div className='App-container'>
@@ -30,6 +32,7 @@ function App() {
             <Route exact path='/'><Home /></Route>
             <Route path='/alert'><Alert /></Route>
             <Route path='/icon'><Icon /></Route>
+            <Route path='/pie'><Pie /></Route>
           </Switch>
         </div>
       </div>      
