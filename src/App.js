@@ -11,6 +11,7 @@ import Home from './Components/Home';
 import Alert from './Components/Alert';
 import Icon from './Components/Icon';
 import Pie from './Components/PieChart';
+import InputChange from './Components/InputChange';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <span className='App-link'><Link to='/alert'>Alert</Link></span>
             <span className='App-link'><Link to='/icon'>Icon</Link></span>
             <span className='App-link'><Link to='/pie'>PieChart</Link></span>
+            <span className='App-link'><Link to='/inputchange'>InputChange</Link></span>
           </div>
         </header>
         <div className='App-container'>
@@ -33,6 +35,7 @@ function App() {
             <Route path='/alert'><Alert /></Route>
             <Route path='/icon'><Icon /></Route>
             <Route path='/pie'><Pie /></Route>
+            <Route path='/inputchange'><InputChange /></Route>
           </Switch>
         </div>
       </div>      
