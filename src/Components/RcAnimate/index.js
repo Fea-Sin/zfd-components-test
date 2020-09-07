@@ -1,9 +1,9 @@
 import React from 'react';
 import Box from '../Box';
 import Animate from 'rc-animate';
-// import { CSSMotion } from 'rc-animate';
 import CSSMotion from 'rc-animate/lib/CSSMotion';
 import classNames from 'classnames';
+import Simple from './simple';
 
 import './slow.css';
 
@@ -218,6 +218,12 @@ export default class App extends React.Component {
               <div className={classNames('demo-block', className)} style={style} />
             )}
           </CSSMotion>
+        </Box>
+        <Box
+          example='融合动画测试'
+          title='velocity animate'
+        >
+          <Simple />
         </Box>
       </div>
     )
