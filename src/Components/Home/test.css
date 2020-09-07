@@ -1,0 +1,6 @@
+.test {
+  color: red;
+}
+.test .hello {
+  color: green;
+}
