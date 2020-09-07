@@ -14,7 +14,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "velocity-animate": "^1.5.2",
-    "zfd": "0.0.6",
+    "zfd": "0.0.8",
     "zfg": "0.0.4"
   },
   "scripts": {

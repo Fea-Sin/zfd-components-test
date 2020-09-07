@@ -13,6 +13,7 @@ import Icon from './Components/Icon';
 import Pie from './Components/PieChart';
 import InputChange from './Components/InputChange';
 import RcAnimate from './Components/RcAnimate';
+import SlideShow from './Components/SlideShow';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <span className='App-link'><Link to='/pie'>PieChart</Link></span>
             <span className='App-link'><Link to='/inputchange'>InputChange</Link></span>
             <span className='App-link'><Link to='/rcanimate'>RcAnimate</Link></span>
+            <span className='App-link'><Link to='/slideshow'>SlideShow</Link></span>
           </div>
         </header>
         <div className='App-container'>
@@ -39,6 +41,7 @@ function App() {
             <Route path='/pie'><Pie /></Route>
             <Route path='/inputchange'><InputChange /></Route>
             <Route path='/rcanimate'><RcAnimate /></Route>
+            <Route path='/slideshow'><SlideShow /></Route>
           </Switch>
         </div>
       </div>      
