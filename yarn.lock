@@ -10,6 +10,11 @@
     gud "^1.0.0"
     warning "^4.0.3"
 
+"@ant-design/css-animation@^1.7.2":
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/@ant-design/css-animation/-/css-animation-1.7.3.tgz#60a1c970014e86b28f940510d69e503e428f1136"
+  integrity sha512-LrX0OGZtW+W6iLnTAqnTaoIsRelYeuLZWsrmBJFUXDALQphPsN8cE5DCsmoSlL0QYb94BQxINiuS70Ar/8BNgA==
+
 "@ant-design/icons-react@~1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@ant-design/icons-react/-/icons-react-1.1.5.tgz#1b03da8dcced2a4bb982ef7b25c1d24014c35a68"
@@ -7009,9 +7014,9 @@ memory-fs@^0.5.0:
     readable-stream "^2.0.1"
 
 merge-deep@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.2.tgz#f39fa100a4f1bd34ff29f7d2bf4508fbb8d83ad2"
-  integrity sha512-T7qC8kg4Zoti1cFd8Cr0M+qaZfOwjlPDEdZIIPPB2JZctjaPM4fX+i7HOId69tAti2fvO6X5ldfYUONDODsrkA==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.3.tgz#1a2b2ae926da8b2ae93a0ac15d90cd1922766003"
+  integrity sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==
   dependencies:
     arr-union "^3.1.0"
     clone-deep "^0.2.4"
@@ -9108,6 +9113,16 @@ rc-animate@^3.0.0-rc.1:
     raf "^3.4.0"
     rc-util "^4.5.0"
     react-lifecycles-compat "^3.0.4"
+
+rc-animate@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/rc-animate/-/rc-animate-3.1.1.tgz#defdd863f56816c222534e4dc68feddecd081386"
+  integrity sha512-8wg2Zg3EETy0k/9kYuis30NJNQg1D6/WSQwnCiz6SvyxQXNet/rVraRz3bPngwY6rcU2nlRvoShiYOorXyF7Sg==
+  dependencies:
+    "@ant-design/css-animation" "^1.7.2"
+    classnames "^2.2.6"
+    raf "^3.4.0"
+    rc-util "^4.15.3"
 
 rc-calendar@~9.12.1:
   version "9.12.4"
@@ -11598,6 +11613,11 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
+velocity-animate@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/velocity-animate/-/velocity-animate-1.5.2.tgz#5a351d75fca2a92756f5c3867548b873f6c32105"
+  integrity sha512-m6EXlCAMetKztO1ppBhGU1/1MR3IiEevO6ESq6rcrSQ3Q77xYSW13jkfXW88o4xMrkXJhy/U7j4wFR/twMB0Eg==
+
 vendors@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.3.tgz#a6467781abd366217c050f8202e7e50cc9eef8c0"
@@ -12190,10 +12210,10 @@ zfd-color@0.0.1:
   resolved "https://registry.yarnpkg.com/zfd-color/-/zfd-color-0.0.1.tgz#c85643f1ea4338bc91ca29945bad773333648457"
   integrity sha512-TgktxTHoNoo/50MWY5w2D0wMODYbzWxD8iGnvJCBGv3pq94GGD/wrT49Uy4oRz1FR0u+UOtx/6sjK8obtvWCeg==
 
-zfd@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/zfd/-/zfd-0.0.6.tgz#15465c7325b9a4c8d9b0621a73e5311a6060a5c8"
-  integrity sha512-ZT0snUKHeLWXL6djAYCnxD6F+MeYiA9oDV3yh8cITZ/XYGKxzBuWSWRNPyNqxbod9aqCDUEODacvDxfkIzjg6g==
+zfd@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/zfd/-/zfd-0.0.8.tgz#b817e76932d35cc884b06f803ee5375c38ae8b9d"
+  integrity sha512-xmmhTQvrg8MtTIBeaevZngE+Y4jbLggnkTNXjz+o76jWa0zYYGL7LcdKvcq2ODmMbD3gnH30MprI8VC2X9MvWQ==
   dependencies:
     "@ant-design/icons" "~1.2.0"
     "@ant-design/icons-react" "~1.1.5"
@@ -12222,6 +12242,7 @@ zfd@0.0.6:
     react-slick "~0.24.0"
     resize-observer-polyfill "^1.5.0"
     shallowequal "^1.1.0"
+    velocity-animate "^1.5.2"
     warning "~4.0.2"
     zfd-color "0.0.1"
 
